@@ -21,15 +21,23 @@ ul{
     justify-content: center;
 }
 li{
+    
     font-family: 'Alfa Slab One';
     list-style-type: none;
     padding: 20px;
 }
 a{
+    -webkit-text-stroke: 0.3px black;   
+    color: white;
     text-decoration: none;
 }
 .h1decorator{
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.2px black;
     color:white;
+    background:linear-gradient(35deg, yellow, blue, red );
+}
+.uldecorator{
+    margin-left: 34em;
+    margin-right: 34em;
     background:linear-gradient(35deg, yellow, blue, red );
 }
